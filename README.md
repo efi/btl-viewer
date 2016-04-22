@@ -1,5 +1,5 @@
 # BTL-viewer
-[Elasticsearch](https://github.com/elastic/elasticsearch) based full text research portal for [DeGruyter}(https://www.degruyter.com/)'s [Bibliotheca Teubneriana Latina](https://www.degruyter.com/view/db/btl) (the offline XML files)
+[Elasticsearch](https://github.com/elastic/elasticsearch) based full text research portal for [DeGruyter](https://www.degruyter.com/)'s [Bibliotheca Teubneriana Latina](https://www.degruyter.com/view/db/btl) (the offline XML files)
 
 Developed by [Thomas Efer](https://github.com/efi) as part of the project [eXChange](https://github.com/exchange-projekt) with funding from the [Federal Ministry of Education and Research](https://www.bmbf.de/).
 
@@ -17,7 +17,7 @@ Developed by [Thomas Efer](https://github.com/efi) as part of the project [eXCha
   * shows document similarity within the collection
 
 ## Prerequirements
- * server system capable of running ~~Ruby or~~ jRuby<br /><sup>_Under Ruby the SAX parser cannot resolve external Entities, so either change the sources or use JRuby)_</sup>
+ * server system capable of running ~~Ruby or~~ JRuby<br /><sup>_(Under Ruby the SAX parser cannot resolve external Entities, so either change the sources or use JRuby)_</sup>
  * Ruby gem `bundler` installed
  * Elasticsearch installed, running and locally listening on the default port
  * the XML files from DeGruyter (not included), e.g:<details> 
