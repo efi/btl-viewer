@@ -17,7 +17,7 @@ Developed by [Thomas Efer](https://github.com/efi) as part of the project [eXCha
   * shows document similarity within the collection
 
 ## Prerequirements
- * server system capable of running Ruby or JRuby
+ * server system capable of running ~~Ruby or~~ jRuby<br /><sup>_Under Ruby the SAX parser cannot resolve external Entities, so either change the sources or use JRuby)_</sup>
  * Ruby gem `bundler` installed
  * Elasticsearch installed, running and locally listening on the default port
  * the XML files from DeGruyter (not included), e.g:<details> 
